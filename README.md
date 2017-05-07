@@ -1,2 +1,1 @@
-# android-ndk-exemplos
-Exemplos do uso de android
+doc/README.pt_br

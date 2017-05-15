@@ -1,0 +1,3 @@
+[submodule "android-execute-native-application"]
+	path = android-execute-native-application
+	url = git@github.com:lopesivan/android-execute-native-application.git

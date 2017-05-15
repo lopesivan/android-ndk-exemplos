@@ -7,7 +7,7 @@ all: README.pt_br README.en
 
 README.pt_br: $(PT_BR)
 	# doc: Portugês do Brasil
-	# header
+	# header: $(PT_BR)
 	@cat ../log-book.md $(PT_BR) | ./gh-md-toc - | sed 's/^ \+//' > $@
 	@echo >> $@
 	@echo >> $@
@@ -19,7 +19,7 @@ README.pt_br: $(PT_BR)
 
 README.en: $(EN)
 	# doc: English USA
-	# header
+	# header: $(EN)
 	@cat ../log-book.md $(EN) | ./gh-md-toc - | sed 's/^ \+//' > $@
 	@echo >> $@
 	@echo >> $@
